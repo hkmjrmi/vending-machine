@@ -40,7 +40,7 @@ public class ItemController {
         return ResponseEntity.ok().body(itemService.addItem(item));
     }
 
-    @DeleteMapping("/products/{id}")
+    @DeleteMapping("/items/{id}")
     public HttpStatus deleteItem(@PathVariable long id) {
         this.itemService.deleteItem(id);
         return HttpStatus.OK;

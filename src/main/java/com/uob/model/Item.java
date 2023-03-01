@@ -19,14 +19,7 @@ public class Item {
     private BigDecimal price;
 
     public Item(){
-
-    }
-
-    public Item(long id, String name, String size, BigDecimal price) {
-        this.id = id;
-        this.name = name;
-        this.size = size;
-        this.price = price;
+        super();
     }
 
     public long getId() {
@@ -60,4 +53,6 @@ public class Item {
     public void setPrice(BigDecimal price) {
         this.price = price;
     }
+
+
 }

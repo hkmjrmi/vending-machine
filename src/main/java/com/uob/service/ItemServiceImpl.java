@@ -12,7 +12,7 @@ import java.util.Optional;
 
 @Service
 @Transactional
-public class ItemServiceImplementation implements ItemService{
+public class ItemServiceImpl implements ItemService{
     @Autowired
     private ItemRepository itemRepository;
 
